@@ -1,0 +1,1 @@
+python train.py --lr 0.01 --momentum 0.8 --anneal true --opt momentum --num_hidden 3 --size 200,100,50 --batch_size 40 --max_epochs 10

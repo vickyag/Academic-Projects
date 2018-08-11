@@ -1,0 +1,5 @@
+1. Run t_table.c to generate T-tables.
+2. Run SBOX.c to compute Sbox corresponding to your polynomial.
+3. Run AES.c to carry out encryption.
+4. The alice_pt.txt file contains plain text to be encrypted.
+5. THE alice_ct.txt contains cipher text obtained after above encryption. 

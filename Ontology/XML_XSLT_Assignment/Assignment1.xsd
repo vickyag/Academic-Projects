@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="news">
+	<xsd:complexType>
+	<xsd:sequence>
+  		<xsd:element name="current_affairs">
+     	<xsd:complexType>
+     	<xsd:sequence>
+	  	<xsd:element name="article" maxOccurs="unbounded">
+	          <xsd:complexType>
+			     <xsd:sequence>
+				    <xsd:element name="headline" type="xsd:string"/>
+                    <xsd:element name="description" type="xsd:string"/>
+					<xsd:element name="author" type="xsd:string"/>
+					<xsd:element name="content" type="xsd:string"/>
+					<xsd:element name="date" type="xsd:dateTime"/>
+                    <xsd:element name="place" type="xsd:string"/>
+                 </xsd:sequence>
+			  </xsd:complexType>
+	   </xsd:element>
+	   </xsd:sequence>
+       </xsd:complexType>
+       </xsd:element>
+  	   <xsd:element name="sports">
+       <xsd:complexType>
+       <xsd:sequence>
+	   <xsd:element name="article" maxOccurs="unbounded">
+	          <xsd:complexType>
+			     <xsd:sequence>
+				    <xsd:element name="headline" type="xsd:string"/>
+                    <xsd:element name="description" type="xsd:string"/>
+					<xsd:element name="author" type="xsd:string"/>
+					<xsd:element name="content" type="xsd:string"/>
+					<xsd:element name="date" type="xsd:dateTime"/>
+					<xsd:element name="category" type="xsd:string"/>
+                 </xsd:sequence>
+			  </xsd:complexType>
+	   </xsd:element>
+	   </xsd:sequence>
+       </xsd:complexType>
+  	   </xsd:element>
+	   <xsd:element name="technology">
+     <xsd:complexType>
+     <xsd:sequence>
+	  <xsd:element name="article" maxOccurs="unbounded">
+	          <xsd:complexType>
+			     <xsd:sequence>
+				    <xsd:element name="headline" type="xsd:string"/>
+                    <xsd:element name="description" type="xsd:string"/>
+					<xsd:element name="author" type="xsd:string"/>
+					<xsd:element name="content" type="xsd:string"/>
+					<xsd:element name="date" type="xsd:dateTime"/>
+                    <xsd:element name="place" type="xsd:string"/>
+                    <xsd:element name="tags" type="xsd:string"/>
+                    <xsd:element name="catagory" type="xsd:string"/>
+                 </xsd:sequence>
+			  </xsd:complexType>
+	   </xsd:element>
+	  </xsd:sequence>
+     </xsd:complexType>
+  </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
